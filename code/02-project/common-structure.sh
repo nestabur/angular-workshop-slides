@@ -1,0 +1,9 @@
+/controllers
+    /home-controller.js
+    /other-controller.js
+/services
+    /home-service.js
+    /other-service.js
+/views
+    /home.html
+    /other.html

@@ -1,0 +1,14 @@
+<form name="form" novalidate>
+    <p>
+        <label for="fieldEmail">Email</label>
+        <input type="email" ng-model="user.email" name="fieldEmail"
+               id="fieldEmail" required>
+    </p>
+    <p ng-show="form.$submitted || form.fieldEmail.$touched">
+        <span ng-show="form.fieldEmail.$error.required">Tell us your email.</span>
+        <span ng-show="form.fieldEmail.$error.email">This is not a valid email.</span>
+    </p>
+    <p>
+        <button type="submit" ng-disabled="!form.$valid">Submit</button>
+    </p>
+</form>

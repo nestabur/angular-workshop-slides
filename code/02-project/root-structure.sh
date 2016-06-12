@@ -1,0 +1,11 @@
+.git/
+node_modules/
+src/
+.editorconfig
+.gitignore
+.jshintrc
+gulpfile.js
+index.html
+package.json
+protractor.conf.js
+webpack.conf.js

@@ -1,7 +1,3 @@
-.DS_Store
-log/*.log
-tmp/**
-node_modules/
-.sass-cache
-css/reveal.min.css
-js/reveal.min.js
+.idea
+build
+node_modules

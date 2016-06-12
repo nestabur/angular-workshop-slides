@@ -1,0 +1,10 @@
+components/
+    /address-book/
+    /application/
+    /welcome-state
+        /index.js
+        /welcome-state.js
+        /welcome-controller.js
+        /welcome.html
+    images/
+    stylesheets/
