@@ -1,6 +1,6 @@
 scope: {
     myProperty: '=?',
-        otherProperty: '&amp;',
+        otherProperty: '&anotherName',
         someAttribute: '@',
         oneWayProtery: '<' // new in 1.5
 }
